@@ -1,0 +1,110 @@
+site_name: ASI DEWA (Aplikasi Absensi Deteksi Wajah)
+site_description: Dokumentasi teknis aplikasi absensi deteksi wajah RSU Fitri Candra
+site_author: henochyanuarariswasono
+site_url: https://192.168.88.20/users/absensi
+
+# ==================================================
+# THEME
+# ==================================================
+theme:
+  name: material
+
+  # Warna utama & aksen
+  palette:
+    - scheme: default
+      primary: deep purple        # warna header
+      accent: lime          # warna tombol/link
+      toggle:
+        icon: material/weather-night
+        name: Mode Gelap
+
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Mode Terang
+
+  # Font
+  font:
+    text: Roboto
+    code: Fira Code
+
+  # Logo & favicon
+  logo: assets/rsfc_logo.png
+  favicon: assets/rsfc_logo.ico
+
+  # Icon
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/face-recognition
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+# ==================================================
+# NAVIGASI
+# ==================================================
+nav:
+  - Beranda: index.md
+  
+  - 🔰 Mulai Cepat:
+      - Instalasi Aplikasi: instalasi.md
+      - Panduan Login: mulai-cepat/login-pertama.md
+      
+  - 🧭 Panduan Absensi:
+      - Cara Absen Masuk: panduan-pengguna/absen-masuk.md
+      - Cara Absen Pulang: panduan-pengguna/absen-pulang.md
+      
+  - ➕ Fitur Lanjutan:
+      - Users:
+          - Melihat Jadwal Kerja: fitur-tambahan/users/lihat-jadwal.md
+          - Melihat History Presensi: fitur-tambahan/users/lihat-presensi.md
+          - Pengajuan Izin / Cuti: fitur-tambahan/users/pengajuan-cuti.md
+
+  - API:
+      - Endpoint: api/endpoint.md
+
+  - ❓ Bantuan: faq.md
+
+# ==================================================
+# PLUGIN
+# ==================================================
+plugins:
+  - search
+
+# ==================================================
+# EXTRA
+# ==================================================
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/username
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/username
+
+# ==================================================
+# MARKDOWN EXTENSIONS
+# ==================================================
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# ==================================================
+# REPOSITORY (OPSIONAL)
+# ==================================================
+repo_name: RSFC-FaceDetectionAbsence
+repo_url: https://github.com/HenochYanuar/RSFC-FaceDetectionAbsence
