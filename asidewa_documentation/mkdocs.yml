@@ -70,8 +70,8 @@ nav:
       - P.J. Divisi:
           - Menyetujui Pengajuan Cuti: fitur-tambahan/divisions/setujui-cuti.md
           - Mapping Jadwal Tim: fitur-tambahan/divisions/mapping-jadwal.md
-      # - Admin:
-      #     - Manajemen User: fitur-tambahan/admin/manajemen-user.md
+      - Admin:
+          - Manajemen User: fitur-tambahan/admin/manajemen-user.md
 
   - API:
       - Endpoint: api/endpoint.md
