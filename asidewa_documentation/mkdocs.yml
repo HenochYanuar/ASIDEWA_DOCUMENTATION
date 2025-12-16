@@ -67,6 +67,11 @@ nav:
           - Melihat Jadwal Kerja: fitur-tambahan/users/lihat-jadwal.md
           - Melihat History Presensi: fitur-tambahan/users/lihat-presensi.md
           - Pengajuan Izin / Cuti: fitur-tambahan/users/pengajuan-cuti.md
+      - P.J. Divisi:
+          - Menyetujui Pengajuan Cuti: fitur-tambahan/divisions/setujui-cuti.md
+          - Mapping Jadwal Tim: fitur-tambahan/divisions/mapping-jadwal.md
+      # - Admin:
+      #     - Manajemen User: fitur-tambahan/admin/manajemen-user.md
 
   - API:
       - Endpoint: api/endpoint.md
