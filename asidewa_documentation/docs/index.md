@@ -15,8 +15,8 @@ Siap memulai hari kerja Anda? Ikuti langkah cepat di bawah ini untuk memulai abs
 | | | |
 | :--- | :--- | :--- |
 | **Untuk Karyawan:** | **Untuk P.J. Divisi:** | **Untuk Admin/HRD:** |
-| [Cara Absen Masuk](panduan-pengguna/absen-masuk.md) | [Mapping Jadwal Karyawan]() | [Mengelola Data Karyawan](admin/data-karyawan.md) |
-|  |  |  |
+| [Cara Absen Masuk](panduan-pengguna/absen-masuk.md) | [Mapping Jadwal Karyawan](fitur-tambahan/divisions/mapping-jadwal.md) | [Mengelola Data Karyawan](fitur-tambahan/admins/manajemen-user.md) |
+<!-- |  |  |  | -->
 
 <br>
 
@@ -43,14 +43,14 @@ Bagian ini mencakup alur kerja harian dan penggunaan fitur utama untuk karyawan.
 
 * [**Instalasi & *Login***](mulai-cepat/login-pertama.md)
 * [**Absen Masuk & Pulang**](panduan-pengguna/absen-masuk.md)
-* **Mengajukan Izin/Cuti**
+* [**Mengajukan Izin/Cuti**](fitur-tambahan/users/pengajuan-cuti.md)
 
 ### 2. ⚙️ Panduan Administrator
 
 Khusus untuk peran HRD dan *Supervisor* yang bertanggung jawab atas pengelolaan data dan pengaturan aplikasi.
 
-* **Aproval Pengajuan Izin**
-* **Analisis Laporan Kehadiran**
+* [**Aproval Pengajuan Izin**](fitur-tambahan/admins/persetujuan-cuti.md)
+* [**Analisis Laporan Kehadiran**](fitur-tambahan/admins/presensi-karyawan.md)
 
 ### 3. ❓ Bantuan & FAQ
 

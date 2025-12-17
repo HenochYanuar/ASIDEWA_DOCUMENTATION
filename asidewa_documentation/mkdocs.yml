@@ -71,7 +71,13 @@ nav:
           - Menyetujui Pengajuan Cuti: fitur-tambahan/divisions/setujui-cuti.md
           - Mapping Jadwal Tim: fitur-tambahan/divisions/mapping-jadwal.md
       - Admin:
-          - Manajemen User: fitur-tambahan/admin/manajemen-user.md
+          - Manajemen User: fitur-tambahan/admins/manajemen-user.md
+          - Laporan Presensi: fitur-tambahan/admins/presensi-karyawan.md
+          - Persetujuan Cuti: fitur-tambahan/admins/persetujuan-cuti.md
+          - Master Data:
+              - Divisi: fitur-tambahan/admins/master-data/divisi.md
+              - Jadwal Kerja: fitur-tambahan/admins/master-data/jadwal.md
+              - Jenis Cuti: fitur-tambahan/admins/master-data/cuti.md
 
   - API:
       - Endpoint: api/endpoint.md

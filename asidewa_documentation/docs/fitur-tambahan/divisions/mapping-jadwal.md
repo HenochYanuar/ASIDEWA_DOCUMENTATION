@@ -68,4 +68,4 @@ Setelah jadwal di-*mapping* di halaman ini:
 1.  Karyawan dapat melihat jadwal yang Anda tentukan di halaman **Jadwal Bulanan** mereka.
 2.  Sistem akan menggunakan jam *shift* yang Anda tentukan (misalnya, *Shift* Pagi) sebagai patokan waktu untuk menghitung status **Tepat Waktu** atau **Terlambat** pada saat karyawan melakukan Absen Masuk.
 
-➡️ Lanjutkan ke panduan Admin: [Approval Pengajuan Cuti](panduan-admin/approval-cuti.md)
+➡️ Lanjutkan ke panduan Admin: [Approval Pengajuan Cuti](../divisions/setujui-cuti.md)
